@@ -1,0 +1,55 @@
+/* Changing the style font */
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Center the whole content to the page */
+.container {
+    max-width: 960px;
+    margin: 0 auto 50px auto;
+}
+
+.activity-col {
+    padding: 10px;
+}
+
+/* Add the top and bottom borders */
+main {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+/* Moving the img side-to-side (multicolumn) layout */
+.activity-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* Add contrast of main heading and subheadings */
+h1 {
+    font-size: 6em;
+    text-align: center;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Centering an image and footer*/
+.container {
+    text-align: center;
+}
+.container img {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
+
